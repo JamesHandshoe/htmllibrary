@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms, Inputs and Textarea</title>
+</head>
+<body>
+	<div class="form-one">
+		<form>
+			<p><label>Customer Name: <input /></label></p>
+			<p><label>Street Address: <input /></label></p>
+			<p><label>City: <input /></label></p>
+			<p><label>State: <input /></label></p>
+			<p><label>Telephone Number: <input /></label></p>
+		</form>
+	</div>
+	<br />
+	<div class="form-two">
+		<form>
+			<fieldset>
+				<legend> Customer Information</legend>
+				<p><label>Customer Name: <input /></label></p>
+				<p><label>Street Address: <input /></label></p>
+				<p><label>City: <input /></label></p>
+				<p><label>State: <input /></label></p>
+				<p><label>Telephone Number: <input /></label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-three">
+		<form>
+			<fieldset>
+				<legend>Sloppiest Sloppy Joe's Ever</legend>
+				<p><input type="radio" name="somewhat" id="size1" /><label>Somewhat sloppy</label></p>
+				<p><input type="radio" name="medium" id="size2" /><label>Medium sloppy</label></p>
+				<p><input type="radio" name="super" id="size3" /><label>Super sloppy</label></p>
+			</fieldset>
+		</form>
+	</div>
+	<!--build a form that allows a user to select different toppings or ingredients-think checkbox-->
+
+	<div class="form-four">
+		<form>
+			<fieldset>
+				<legend>Delicious Add Ons</legend>
+				<p><input type="checkbox" name="ketchup" id="topping1" /><label>Ketchup</label></p>
+				<p><label><input type="checkbox" name="mustard" id="topping2" />Mustard</label></p>
+				<p><label><input type="checkbox" name="dillPickles" id="topping3" />Dill Pickles</label></p>
+				<p><label><input type="checkbox" name="secret" id="topping4" />Secret Sauce</label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-five">
+		<form>
+			<fieldset>
+				<p><label>Preferred delivery time: <input type="time" min="11:00" max="21:00" step="900"></label></p>
+				<p><label>Delivery instructions: <textarea></textarea></label></p>
+				<p><button>Submit order</button></p>
+			</fieldset>
+		</form>	
+	</div>
+</body>
+</html>
